@@ -1,0 +1,82 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd2d2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Styling for the heading */
+h1 {
+    color: #333;
+    font-size: 1.8rem; /* Adjusted font size for better fit */
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 500px; /* Adjust width for the circle */
+    height: 500px; /* Adjust height for the circle */
+    background-color: #f2dcdc; /* Background color for the container */
+    border-radius: 50%; /* Makes the container circular */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin: 0 auto; /* Center the container horizontally */
+}
+/* Styling for the input field */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 150px; /* Adjust width to fit within the circle */
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+#result {
+    margin-top: 10px; /* Reduced margin for better fit */
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+/* Styling for invalid input error */
+.error {
+    color: red;
+    font-weight: bold;
+}
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the result div */
+#result {
+    margin-top: 10px; /* Adjusted margin for consistency */
+    font-size: 1.2rem; 
+    color: #333;
+}
